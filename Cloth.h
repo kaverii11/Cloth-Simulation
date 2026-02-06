@@ -1,54 +1,44 @@
-#include "Particle.h" 
+#pragma once
 #include "Spring.h"
-#include <bits/stdc++.h>
+#include <Eigen/Dense>
+#include <vector>
 
-#define ACCELERATION_OF_GRAVITY 9.80f
-#define MESH_SIZE 15 
-
-class Cloth{
+class Cloth {
 public:
-    // info about mesh particle (i, j)
-    std::vector<std::vector<Particle>>particles;
-    // info about all springs connected from/to (i, j) [vertex set]
-    std::vector<std::vector<std::vector<Spring>>> springs;         
-    // info about springs [edge set]
-    std::vector<Spring>structural_springs;
-    std::vector<Spring>shear_springs;
-    std::vector<Spring>flexion_springs;
-    
+  int width, height;
 
-    // set initial state of the cloth 
-    Cloth();
+  // Data-Oriented Layout
+  std::vector<Eigen::Vector3d> positions;
+  std::vector<Eigen::Vector3d> old_positions; // For Verlet Stability
+  std::vector<Eigen::Vector3d> velocities;
+  std::vector<Eigen::Vector3d> forces;
 
+  std::vector<Spring> springs;
+  std::vector<unsigned int> spring_indices;
+  std::vector<unsigned int> triangle_indices; // For Solid Mesh
 
+  // Simulation Parameters
+  float mass = 1.0f;
+  float gravity = -9.8f;
+  float damping = 0.01f;
+  float structural_stiffness = STRUCTURAL_STIFFNESS;
+  float shear_stiffness = SHEAR_STIFFNESS;
+  float flexion_stiffness = FLEXION_STIFFNESS;
 
-    // simulate the Cloth movement
-    void Simulate();
-    // compute net gravitational force on mesh particle (i, j)
-    Eigen::Vector3d computeNetGravitationalForce(int i, int j);
-    // compute net internal force due to springs on mesh particle (i, j)
-    Eigen::Vector3d computeNetInternalForce(int i, int j);
-    
-    // accumulate net internal forces
-    void accumulateNetInternalForces();
-    // compute net damping force on mesh particle (i, j)
-    Eigen::Vector3d computeNetDampingForce(int i, int j);
-    // compute net viscous force on mesh particle (i, j)
-    Eigen::Vector3d computeNetViscousForce(int i, int j);
-    
-    // compute unit normal on the surface at point (i,j)
-    Eigen::Vector3d computeNormal(int i, int j);
-    void computeNormal();    
+  Eigen::Vector3d wind_force = Eigen::Vector3d(0, 0, 0);
 
+  // OpenGL Buffers
+  unsigned int VAO, VBO, EBO, TBO;
 
+  Cloth();
+  ~Cloth();
 
-    // render the mesh onto the screen
-    void Draw();
+  void Simulate(float dt);
+  void InitMesh();
+  void UpdateMesh();
+  void Draw();
 
-    //-----new added--------
-   // void ApplyEulerMethod(void);
-	//void ApplyDynamicInverseProcedure(void);
-
-    // debugging functions
-    void printState(int time);
+private:
+  void ComputeForces();
+  void Integration(float dt);
 };

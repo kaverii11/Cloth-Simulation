@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/Main.dir/Main.cpp.o -o Main  libminor.a /usr/lib/x86_64-linux-gnu/libGLEW.so -lGL -lGLU -lglut -lfreeimage 

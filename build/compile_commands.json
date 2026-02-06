@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/Users/kaverisharma/clotg/Cloth-Simulation/build",
+  "command": "/usr/bin/c++  -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -isystem /opt/homebrew/include -isystem /opt/homebrew/include/eigen3 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks  -o CMakeFiles/ClothSim.dir/Main.cpp.o -c /Users/kaverisharma/clotg/Cloth-Simulation/Main.cpp",
+  "file": "/Users/kaverisharma/clotg/Cloth-Simulation/Main.cpp",
+  "output": "CMakeFiles/ClothSim.dir/Main.cpp.o"
+},
+{
+  "directory": "/Users/kaverisharma/clotg/Cloth-Simulation/build",
+  "command": "/usr/bin/c++  -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -isystem /opt/homebrew/include -isystem /opt/homebrew/include/eigen3 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks  -o CMakeFiles/ClothSim.dir/Cloth.cpp.o -c /Users/kaverisharma/clotg/Cloth-Simulation/Cloth.cpp",
+  "file": "/Users/kaverisharma/clotg/Cloth-Simulation/Cloth.cpp",
+  "output": "CMakeFiles/ClothSim.dir/Cloth.cpp.o"
+},
+{
+  "directory": "/Users/kaverisharma/clotg/Cloth-Simulation/build",
+  "command": "/usr/bin/c++  -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -isystem /opt/homebrew/include -isystem /opt/homebrew/include/eigen3 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks  -o CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui.cpp.o -c /Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui.cpp",
+  "file": "/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui.cpp",
+  "output": "CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui.cpp.o"
+},
+{
+  "directory": "/Users/kaverisharma/clotg/Cloth-Simulation/build",
+  "command": "/usr/bin/c++  -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -isystem /opt/homebrew/include -isystem /opt/homebrew/include/eigen3 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks  -o CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui_demo.cpp.o -c /Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui_demo.cpp",
+  "file": "/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui_demo.cpp",
+  "output": "CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui_demo.cpp.o"
+},
+{
+  "directory": "/Users/kaverisharma/clotg/Cloth-Simulation/build",
+  "command": "/usr/bin/c++  -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -isystem /opt/homebrew/include -isystem /opt/homebrew/include/eigen3 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks  -o CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui_draw.cpp.o -c /Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui_draw.cpp",
+  "file": "/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui_draw.cpp",
+  "output": "CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/kaverisharma/clotg/Cloth-Simulation/build",
+  "command": "/usr/bin/c++  -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -isystem /opt/homebrew/include -isystem /opt/homebrew/include/eigen3 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks  -o CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui_tables.cpp.o -c /Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui_tables.cpp",
+  "file": "/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui_tables.cpp",
+  "output": "CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/kaverisharma/clotg/Cloth-Simulation/build",
+  "command": "/usr/bin/c++  -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -isystem /opt/homebrew/include -isystem /opt/homebrew/include/eigen3 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks  -o CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui_widgets.cpp.o -c /Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui_widgets.cpp",
+  "file": "/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/imgui_widgets.cpp",
+  "output": "CMakeFiles/ClothSim.dir/_deps/imgui-src/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/kaverisharma/clotg/Cloth-Simulation/build",
+  "command": "/usr/bin/c++  -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -isystem /opt/homebrew/include -isystem /opt/homebrew/include/eigen3 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks  -o CMakeFiles/ClothSim.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o -c /Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp",
+  "file": "/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/ClothSim.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Users/kaverisharma/clotg/Cloth-Simulation/build",
+  "command": "/usr/bin/c++  -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src -I/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -isystem /opt/homebrew/include -isystem /opt/homebrew/include/eigen3 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks  -o CMakeFiles/ClothSim.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o -c /Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp",
+  "file": "/Users/kaverisharma/clotg/Cloth-Simulation/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/ClothSim.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o"
+}
+]

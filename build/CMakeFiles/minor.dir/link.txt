@@ -1,2 +1,0 @@
-/usr/bin/ar qc libminor.a CMakeFiles/minor.dir/Cloth.cpp.o CMakeFiles/minor.dir/Particle.cpp.o CMakeFiles/minor.dir/Spring.cpp.o
-/usr/bin/ranlib libminor.a
